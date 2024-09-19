@@ -1,0 +1,20 @@
+# Ignorar el entorno virtual de Python
+venv/
+
+# Ignorar el archivo de credenciales de Google
+credentials.json
+google_credentials.json
+
+# Ignorar el archivo .env que contiene las variables de entorno sensibles
+.env
+
+# Ignorar archivos de bases de datos locales
+*.db
+
+# Ignorar archivos temporales y de sistema
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignorar archivos de trabajo de Excel y otros archivos grandes no esenciales
+*.xlsx
